@@ -13,13 +13,33 @@ h1 {
 	font-size: 18px;
 	font-family: "Source Code Pro", monospace;
   }
+nav {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+}
+
+nav ul li {
+	margin: 0 10px;
+}
+
+nav ul li a {
+	text-decoration: none;
+}
   
-  p {
+p {
 	font-weight: 400;
 	font-size: 14px;
 	font-family: "Montserrat", sans-serif;
-  }
-  section {
+}
+section {
 	border: 3px solid lightgray;
 	margin: 10px;
 	padding: 10px;
