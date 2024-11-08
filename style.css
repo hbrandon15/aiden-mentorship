@@ -118,3 +118,10 @@ p.color-desc {
 	width: 50%; /* Adjust the size as needed */
 	position: relative;
 }
+.graph-word{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%; /* Adjust the size as needed */
+	position: relative;
+}
