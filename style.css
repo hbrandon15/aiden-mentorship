@@ -1,5 +1,6 @@
 html {
-  background-color: whitesmoke;
+  color:white;
+  background-color: rgb(14,18,23)
 }
 
 h1 {
@@ -48,10 +49,10 @@ section {
 
 section h2 {
   text-align: center;
-  background-color: rgb(96, 139, 193);
+  background-color: 
 }
 section ul{
-	background-color: rgb(203, 220, 235);
+	background-color: 
 	padding: 30px;
 }
 
