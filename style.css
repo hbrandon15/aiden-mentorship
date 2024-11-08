@@ -123,6 +123,6 @@ p.color-desc {
   position: relative;
 }
 
-section.resources ul li a {
+#resources ul li a {
   color: white;
 }
