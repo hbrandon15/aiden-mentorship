@@ -1,6 +1,6 @@
 html {
-  color:white;
-  background-color: rgb(14,18,23)
+  color: white;
+  background-color: rgb(14, 18, 23);
 }
 
 h1 {
@@ -34,8 +34,6 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: white;
-font-weight: bold;
-text-decoration: underline;
 }
 
 p {
@@ -44,19 +42,15 @@ p {
   font-family: "Montserrat", sans-serif;
 }
 section {
-
   margin: 10px;
   padding: 10px;
-  
 }
 
 section h2 {
   text-align: center;
- 
 }
-section ul{
-	background-color: 
-	padding: 30px;
+section ul {
+  padding: 30px;
 }
 
 li {
@@ -115,16 +109,20 @@ p.color-desc {
 }
 
 .computer-header {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%; /* Adjust the size as needed */
-	position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; /* Adjust the size as needed */
+  position: relative;
 }
-.graph-word{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%; /* Adjust the size as needed */
-	position: relative;
+.graph-word {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; /* Adjust the size as needed */
+  position: relative;
+}
+
+section.resources ul li a {
+  color: white;
 }
