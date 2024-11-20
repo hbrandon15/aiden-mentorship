@@ -15,6 +15,7 @@ h2 {
   font-family: "Source Code Pro", monospace;
 }
 h4 {
+  Font-size: 20px;
   font-family: "Source Code Pro", monospace;
   Color: #133E87;
 }
@@ -49,7 +50,7 @@ nav ul li a {
 
 p {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 18px;
   font-family: "Montserrat", sans-serif;
 }
 section {
