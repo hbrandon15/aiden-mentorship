@@ -162,3 +162,19 @@ p.color-desc {
   width: 40%;
   position: relative;
 }
+
+.Pro-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  position: relative;
+}
+
+.In-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  position: relative;
+}
