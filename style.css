@@ -122,10 +122,11 @@ section h2 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
-  max-width: 500px; /* Set a maximum size for larger screens */
+  width: 100%; /* Makes images responsive */
+  max-width: 500px; /* Sets a maximum size */
   border-radius: 10px; /* Rounded corners for images */
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for a polished look */
+  object-fit: cover; /* Ensure the images maintain their aspect ratio */
 }
 
 /* Media Queries for Responsiveness */
@@ -150,6 +151,18 @@ section h2 {
   .color-box {
     width: 80px;
     height: 80px;
+  }
+
+  /* Ensure images don't become too large on smaller screens */
+  .computer-header,
+  .graph-word,
+  .Job-img,
+  .edu-img,
+  .Lan-img,
+  .Pro-img,
+  .In-img,
+  .Hire-img {
+    max-width: 90%; /* Make sure images are smaller on mobile */
   }
 }
 
@@ -178,5 +191,17 @@ section h2 {
 
   p {
     font-size: 14px;
+  }
+
+  /* Further adjust image size for very small screens */
+  .computer-header,
+  .graph-word,
+  .Job-img,
+  .edu-img,
+  .Lan-img,
+  .Pro-img,
+  .In-img,
+  .Hire-img {
+    max-width: 100%; /* Images will take up full width */
   }
 }
