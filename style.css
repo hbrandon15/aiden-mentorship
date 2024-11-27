@@ -1,6 +1,6 @@
 html {
   color: rgb(0, 0, 0);
-  background-color: rgb(255, 255, 255);
+  background: linear-gradient(135deg, #f4f4f9, #e0e7ff); /* Soft gradient background */
 }
 
 h1 {
@@ -8,25 +8,33 @@ h1 {
   font-weight: 700;
   font-size: 26px;
   font-family: "Source Code Pro", monospace;
+  color: #2c3639; /* Darker color for contrast */
+  margin-bottom: 15px;
 }
 
 h2 {
   font-weight: 500;
   font-size: 18px;
   font-family: "Source Code Pro", monospace;
+  color: #3f4e4f; /* Muted gray-blue for balance */
 }
 
 h4 {
   font-size: 20px;
   font-family: "Source Code Pro", monospace;
-  color: #133E87;
+  color: #133e87;
+  text-transform: uppercase; /* Add emphasis */
+  letter-spacing: 1px; /* Modern look */
 }
 
 nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+  background-color: #133e87; /* Add a subtle contrasting navbar */
+  padding: 10px 20px;
+  border-radius: 10px; /* Rounded navbar */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
 nav ul {
@@ -34,41 +42,43 @@ nav ul {
   padding: 0;
   margin: 0;
   display: flex;
-  flex-wrap: wrap;
 }
 
 nav ul li {
-  margin: 0 10px;
+  margin: 0 15px; /* Increased spacing for clarity */
 }
 
 nav ul li a {
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: white; /* Use white text for better contrast */
   font-weight: bold;
-  color: #133E87;
+  transition: color 0.3s, border-bottom 0.3s; /* Smooth transitions */
+}
+
+nav ul li a:hover {
+  color: #3f4e4f; /* Hover effect */
+  border-bottom: 2px solid #3f4e4f; /* Underline on hover */
 }
 
 p {
   font-weight: 400;
   font-size: 18px;
   font-family: "Montserrat", sans-serif;
+  line-height: 1.8; /* Better readability */
+  color: #3f4e4f;
 }
 
 section {
-  margin: 10px;
-  padding: 10px;
+  margin: 20px; /* Increased margin for breathing space */
+  padding: 20px;
+  background: #fff; /* White card-style section */
+  border-radius: 10px; /* Smooth edges */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
 }
 
 section h2 {
   text-align: center;
-}
-
-section ul {
-  padding: 30px;
-}
-
-li {
-  font-family: "Montserrat", sans-serif;
+  color: #2c3639;
 }
 
 .color-box {
@@ -76,12 +86,8 @@ li {
   height: 100px;
   display: inline-block;
   vertical-align: top;
-}
-
-p.color-desc {
-  color: #000;
-  text-align: center;
-  padding-top: 20px;
+  border-radius: 8px; /* Rounded corners for modern look */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
 .color-light {
@@ -105,29 +111,6 @@ p.color-desc {
   color: #fff;
 }
 
-.montserrat-regular {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.montserrat-regular h3 {
-  font-family: "Montserrat", sans-serif;
-}
-
-.source-code-pro-regular p {
-  font-family: "Source Code Pro", monospace;
-}
-
-.source-code-pro-regular {
-  font-family: "Source Code Pro", monospace;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-
-/* Responsive Images */
 .computer-header,
 .graph-word,
 .Job-img,
@@ -141,7 +124,8 @@ p.color-desc {
   margin-right: auto;
   width: 100%;
   max-width: 500px; /* Set a maximum size for larger screens */
-  position: relative;
+  border-radius: 10px; /* Rounded corners for images */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for a polished look */
 }
 
 /* Media Queries for Responsiveness */
@@ -158,8 +142,9 @@ p.color-desc {
     margin: 0 5px;
   }
 
-  p {
-    font-size: 16px;
+  section {
+    margin: 10px;
+    padding: 15px;
   }
 
   .color-box {
